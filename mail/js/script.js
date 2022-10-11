@@ -30,7 +30,7 @@ const find = function(){
 
     // ora cerco la mail nelle mail già presenti in elenco
     for(let i = 0; i < emailElenco.length; i++){
-        console.log('sono il for')
+
         // creo una variabile per emailElenco.length
         const elencoValue = emailElenco[i];
 
@@ -50,4 +50,3 @@ const find = function(){
 }
 
 checkBtn.addEventListener('click', find)
-
