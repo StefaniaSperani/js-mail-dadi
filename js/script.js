@@ -22,7 +22,7 @@ let mailInput = document.getElementById('userMail');
 const find = function(){
     // prendo il valore della mail
     let mailValue = mailInput.value;
-    // console.log(mailValue);
+    console.log(mailValue);
 
     // creo un check per la mail
     let checkEmail = false;
@@ -46,7 +46,7 @@ const find = function(){
         document.getElementsByClassName('message').innerHTML = 'Ops, non sei registrato!'
     }
 }
-console.log(find);
+// console.log(find);
 
 checkBtn.addEventListener('click', find)
 
